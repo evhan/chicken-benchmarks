@@ -2367,7 +2367,7 @@
     "test"))
 
 (define (setup!)
-  (use setup-api)
+  (use posix setup-api)
   (remove-file* "slatexdir")
   (create-directory "slatexdir"))
 

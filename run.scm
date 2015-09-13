@@ -3,7 +3,7 @@
 exec csi -s $0 "$@"
 |#
 
-(use posix utils srfi-1 irregex)
+(use data-structures extras files srfi-1 srfi-13 posix utils irregex)
 (use (only setup-api program-path))
 
 ;;; Configurable parameters
